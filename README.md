@@ -2,7 +2,7 @@
 
 Team 5
 
-Members: 
+*Members*: 
 
 Bram de Vries
 
