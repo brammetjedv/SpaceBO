@@ -6,7 +6,7 @@ Team 5
 
 Bram de Vries
 
-Timo Zandbergen
+Timo Zandbergen.
 
 Stefan Hol
 
