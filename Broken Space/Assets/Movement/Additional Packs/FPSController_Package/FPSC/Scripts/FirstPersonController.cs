@@ -10,6 +10,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
+        public InventoryObject inventory;
+
         [SerializeField] private bool m_IsWalking = false;
         public float m_WalkSpeed;
         public float m_RunSpeed;
@@ -36,11 +38,29 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private CharacterController m_CharacterController;
         private CollisionFlags m_CollisionFlags;
         private bool m_PreviouslyGrounded;
-        private Vector3 m_OriginalCameraPosition;
+        private Vector3 m_OriginalCameraPosition; 
         private float m_StepCycle;
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+
+        public void OnTriggerEnter(Collider other)
+        {
+            var item = other.GetComponent<Item>();
+            if (item)
+            {
+                inventory.Additem(item.item, 1);
+                Destroy(other.gameObject);
+            }
+        }
+
+        private void OnApplicationQuit()
+        {
+            inventory.Container.Clear();        }
+
+
+
+
 
         // Use this for initialization
         private void Start()
@@ -81,6 +101,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+            
+
         }
 
 

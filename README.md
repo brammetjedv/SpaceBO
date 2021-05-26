@@ -6,7 +6,7 @@ Team 5
 
 Bram de Vries
 
-Timo Zandbergen.
+Timo Zandbergen
 
 Stefan Hol
 
@@ -18,4 +18,4 @@ Julia Immink
 
 Surely Barbeau
 
-Unity 2019  4.17f1
+Unity 2019 4.17f1
