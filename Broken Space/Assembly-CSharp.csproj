@@ -64,7 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GenerateEnemies.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -84,6 +83,7 @@
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\FPSC\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\FPSC\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\FPSC\Scripts\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\Scripts\GenerateEnemies.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
