@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fbb433aa51b0cb4eb6ec9c2ac8e6712, type: 3}
+  m_Name: Healing
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7226904202091557303, guid: 09dbc82d8f3150e4c96af6bcbeaae88e, type: 3}
+  type: 1
+  description: You can heal with this item
+  restoreHealthValue: 10
