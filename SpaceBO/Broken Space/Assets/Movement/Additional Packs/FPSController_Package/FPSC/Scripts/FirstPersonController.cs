@@ -10,7 +10,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
-        public InventoryObject inventory;
 
         [SerializeField] private bool m_IsWalking = false;
         public float m_WalkSpeed;
@@ -43,20 +42,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
-
-        public void OnTriggerEnter(Collider other)
-        {
-            var item = other.GetComponent<Item>();
-            if (item)
-            {
-                inventory.Additem(item.item, 1);
-                Destroy(other.gameObject);
-            }
-        }
-
-        private void OnApplicationQuit()
-        {
-            inventory.Container.Clear();        }
 
 
 

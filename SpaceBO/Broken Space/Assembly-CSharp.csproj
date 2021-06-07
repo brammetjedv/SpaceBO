@@ -64,8 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DisplayInventory.cs" />
-    <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -85,33 +83,7 @@
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\FPSC\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\FPSC\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\FPSC\Scripts\SimpleMouseRotator.cs" />
-    <Compile Include="Assets\Scriptable Objects\Inventory\Scripts\InventoryObject.cs" />
-    <Compile Include="Assets\Scriptable Objects\Items\Scripts\DefaultObject.cs" />
-    <Compile Include="Assets\Scriptable Objects\Items\Scripts\EquipmentObject.cs" />
-    <Compile Include="Assets\Scriptable Objects\Items\Scripts\FoodObject.cs" />
-    <Compile Include="Assets\Scriptable Objects\Items\Scripts\ItemObject.cs" />
     <Compile Include="Assets\Scripts\GenerateEnemies.cs" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Users/zandb/Documents/Unity/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

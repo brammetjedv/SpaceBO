@@ -19,7 +19,7 @@ public class GenerateEnemies : MonoBehaviour
         {
             xPos = Random.Range(-20, 20);
             zPos = Random.Range(-20, 20);
-            Instantiate(theEnemy, new Vector3(xPos, 1, zPos), Quaternion.identity);
+            Instantiate(theEnemy, new Vector3(xPos, 0.4f, zPos), Quaternion.identity);
             yield return new WaitForSeconds(1f);
             enemyCount += 1;
         }
