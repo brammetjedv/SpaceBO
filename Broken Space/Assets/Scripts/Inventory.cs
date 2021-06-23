@@ -10,6 +10,7 @@ public class Inventory : MonoBehaviour
     public static bool Blowtorch;
     public static bool Wrench;
     public static bool Wiring;
+    public static bool Keycard;
 
     public static bool allItems;
 
@@ -30,8 +31,12 @@ public class Inventory : MonoBehaviour
                 {
                     if(Wiring == true)
                     {
-                        allItems = true;
-                        Debug.Log(allItems + "all items");
+                        if (Keycard == true)
+
+                        {
+                            allItems = true;
+                            Debug.Log(allItems + "all items");
+                        }
                     }
                 }
             }

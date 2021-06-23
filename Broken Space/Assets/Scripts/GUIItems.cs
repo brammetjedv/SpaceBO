@@ -9,7 +9,9 @@ public class GUIItems : MonoBehaviour
     public Text wText;
     public Text wiText;
     public Text bText;
+    public Text cText;
     public Text Ntext;
+    
 
 
     // Start is called before the first frame update
@@ -59,6 +61,15 @@ public class GUIItems : MonoBehaviour
         if (Inventory.Wiring == false)
         {
             wiText.text = " ";
+        }
+
+        if (Inventory.Keycard == true)
+        {
+            cText.text = "KEYCARD";
+        }
+        if (Inventory.Keycard == false)
+        {
+            cText.text = " ";
         }
 
         if (Comms.showtext == true)
