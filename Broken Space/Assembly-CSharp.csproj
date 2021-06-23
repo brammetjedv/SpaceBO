@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\Comms.cs" />
     <Compile Include="Assets\Scripts\GUIItems.cs" />
     <Compile Include="Assets\Scripts\GenerateEnemies.cs" />
+    <Compile Include="Assets\Scripts\GenerateEnemies3.cs" />
     <Compile Include="Assets\Scripts\GenerateEnemies_2.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
