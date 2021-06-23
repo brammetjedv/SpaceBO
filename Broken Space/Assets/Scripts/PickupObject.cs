@@ -9,6 +9,7 @@ public class PickupObject : MonoBehaviour
     public bool itemBlowtorch;
     public bool itemWrench;
     public bool itemWiring;
+    public bool itemKeycard;
 
 
     void OnTriggerEnter(Collider collider)
@@ -41,6 +42,12 @@ public class PickupObject : MonoBehaviour
                 Inventory.Wiring = true;
                 Destroy(gameObject);
                 Debug.Log("Wiring = " + Inventory.Wiring);
+            }
+            if (itemKeycard == true)
+            {
+                Inventory.Keycard = true;
+                Destroy(gameObject);
+                Debug.Log("Keycard = " + Inventory.Keycard);
             }
         }
     }

@@ -47,6 +47,7 @@ public class Comms : MonoBehaviour
                 Inventory.Wiring = false;
                 Inventory.Wrench = false;
                 Inventory.Blowtorch = false;
+                Inventory.Keycard = false;
                 showtext = false;
                 
             }
