@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Assets\Damon dev\CharacterStats.cs" />
     <Compile Include="Assets\Damon dev\Enemy.cs" />
+    <Compile Include="Assets\Damon dev\EnemyStats.cs" />
+    <Compile Include="Assets\Damon dev\GameController.cs" />
     <Compile Include="Assets\Damon dev\PlayerStats.cs" />
     <Compile Include="Assets\Damon dev\PlayerUI.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
