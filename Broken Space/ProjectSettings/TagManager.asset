@@ -7,6 +7,8 @@ TagManager:
   - Key
   - InteractiveObject
   - DoorButton
+  - Bullet
+  - Enemy
   layers:
   - Default
   - TransparentFX

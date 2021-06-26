@@ -15,7 +15,7 @@ public class CharacterStats : MonoBehaviour
         {
             currHealth = maxHealth;
         }
-        if (currHealth< 1)
+        if (currHealth < 1)
         {
             currHealth = 0;
             isDead = true;

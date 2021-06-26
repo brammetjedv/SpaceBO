@@ -11,7 +11,7 @@ public class PlayerStats : CharacterStats
 
 
 
-        maxHealth = 100;
+        maxHealth = 1000;
         currHealth = maxHealth;
 
         SetStats();

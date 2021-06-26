@@ -89,7 +89,9 @@
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\FPSC\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\FPSC\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Movement\Additional Packs\FPSController_Package\FPSC\Scripts\SimpleMouseRotator.cs" />
+    <Compile Include="Assets\Scripts\CharacterStats1.cs" />
     <Compile Include="Assets\Scripts\Comms.cs" />
+    <Compile Include="Assets\Scripts\Damage.cs" />
     <Compile Include="Assets\Scripts\GUIItems.cs" />
     <Compile Include="Assets\Scripts\GenerateEnemies.cs" />
     <Compile Include="Assets\Scripts\GenerateEnemies3.cs" />
