@@ -12,7 +12,7 @@ public class EnemyStats : CharacterStats
     {
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
 
-        maxHealth = 100;
+        maxHealth = 50;
         currHealth = maxHealth;
     }
 

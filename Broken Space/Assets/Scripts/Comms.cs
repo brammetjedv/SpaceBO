@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Comms : MonoBehaviour
 {
@@ -49,7 +50,9 @@ public class Comms : MonoBehaviour
                 Inventory.Blowtorch = false;
                 Inventory.Keycard = false;
                 showtext = false;
-                
+
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+
             }
 
             if (Inventory.allItems == false)
@@ -64,4 +67,6 @@ public class Comms : MonoBehaviour
             }
         }
     }
+
+
 }

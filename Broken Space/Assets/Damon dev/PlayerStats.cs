@@ -5,13 +5,15 @@ using UnityEngine;
 public class PlayerStats : CharacterStats
 {
     PlayerUI playerUI;
+    GameController gameController;
     void Start()
     {
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
         playerUI = GetComponent<PlayerUI> ();
 
 
 
-        maxHealth = 1000;
+        maxHealth = 250;
         currHealth = maxHealth;
 
         SetStats();
@@ -20,6 +22,7 @@ public class PlayerStats : CharacterStats
     public override void Die()
     {
         Debug.Log("You ded bro");
+        gameController.ReloadScene();
     }
 
     void SetStats()
